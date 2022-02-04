@@ -1,0 +1,2 @@
+class Trigram < ApplicationRecord
+end
