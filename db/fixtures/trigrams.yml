@@ -5,35 +5,35 @@
 
 - id: 2
   trigram: ☱
-  binary: "110"	
+  binary: "110"
   element: Lake/Marsh
 
 - id: 3
   trigram: ☲
-  binary: "101"	
+  binary: "101"
   element: Fire
 
 - id: 4
   trigram: ☳
-  binary: "100"	
+  binary: "100"
   element: Thunder
 
 - id: 5
   trigram: ☴
-  binary: "011"	
+  binary: "011"
   element: Wind
 
 - id: 6
   trigram: ☵
-  binary: "010"	
+  binary: "010"
   element: Water
 
 - id: 7
   trigram: ☶
-  binary: "001"	
+  binary: "001"
   element: Mountain
 
 - id: 8
   trigram: ☷
   binary: "000"
-  element: Ground
+  element: Earth/Ground
