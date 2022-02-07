@@ -59,6 +59,23 @@ Sample response
 
 ## Production
 
+To use the GraphiQL Interface, go to:
+
 ```
 https://graphql-trigrams.herokuapp.com/graphiql
+```
+
+Example curl:
+
+```zsh
+curl --request POST \
+-H "Content-Type: application/json" \
+-d '{"query":"query{trigram(id:5) {id trigram binary element}}"}' \
+https://graphql-trigrams.herokuapp.com/graphql
+```
+
+Sample response:
+
+```json
+{"data":{"trigram":{"id":"5","trigram":"☴","binary":"011","element":"Wind"}}}
 ```
